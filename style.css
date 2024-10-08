@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.navbar-nav .nav-link.active {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+.navbar-nav .nav-link:hover {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+#Hero {
+    overflow: hidden;
+}
+.carousel-inner video {
+    object-fit: cover;
+}
+.card-body {
+    border-radius: 10px;
+}
+.card {
+    display: flex;
+    align-items: center;
+}
+.cont{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.featcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.featcol .card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.card-img {
+    height: 500px;
+    width: 1000px;
+}
+.card-img-top {
+    height: 200px;
+    width: 200px;
+}
+.cont {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+@media (max-width: 600px) {
+    .cont {
+        display: none;
+    }
+}
+.card4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-2{
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+.btn-buynow {
+    color: #000;   
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    .btn-buynow {
+        font-size: 1rem;
+    }
+}
+.badge--slim {
+    font-weight: 400;
+}
+
+.disclaimer {
+    font-size: .8rem;
+}
+
+.cont-box {
+    max-width: 1200px;
+}
+
+.label-top {
+    position: absolute;
+    background-color: #0275d8;
+    color: #fff;
+    top: 8px;
+    right: 8px;
+    padding: 5px 10px;
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.bold-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 50px;
+}
+.box .btn {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1025px) {
+    .box .btn {
+        padding: 5px 40px;
+    }
+}
+
+@media (max-width: 250px) {
+    .box .btn {
+        padding: 5px 30px;
+    }
+}
+.btn-primary {
+    background: #0275d8;
+    color: rgb(255, 255, 255);
+    fill: #ffffff;
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    border-radius: 20px
+}
+
+.btn-primary--main {
+    background: transparent;
+    padding: 5px 25px;
+    border: solid 2px #0275d8;
+    border-radius: 20px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .btn-primary--main {
+        width: 300px;
+    }
+}
+.btn-primary:hover {
+    background: #0275d8;
+    color: rgb(255, 255, 255);
+}
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    background: #0275d8;
+    color: rgb(255, 255, 255);
+}
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem #0275d8;
+}
+.btn-primary:active {
+    background: #0275d8;
+    color: rgb(255, 255, 255);
+}
+.bg-success {
+    font-size: 1rem;
+    background-color: #ffcc00 !important;
+    color: rgb(61, 61, 61) !important;
+}
+
+.bg-danger {
+    font-size: 1rem;
+}
+
+.price-hp {
+    font-size: 1rem;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.card {
+    background: #fff;
+    box-shadow: none;
+    transition: none;
+    border: 6;
+    border-radius: 5;
+}
+.card h3 {
+    overflow: hidden;
+    height: 56px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card h3 a {
+    color: #1a1a1a;
+}
+
+.card h3 a:hover {
+    color: #616161;
+}
+
+.card-img-top {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    object-fit: contain;
+    padding: 30px;
+}
+
+.card h2 {
+    font-size: 1rem;
+}
+
+.card-body {
+    background: #ffffff;
+}
+
+.aff-link {
+    font-weight: 500;
+    color: #000 !important;
+}
+.ratings{
+    color: #0275d8;
+}
